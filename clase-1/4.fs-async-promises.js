@@ -6,16 +6,16 @@
 
 const fs = require('node:fs/promises')
 
-console.log('Leyendo el primer archivo...')
-fs.readFile('./archivo.txt', 'utf-8')
+console.log('🐼 Reading the first file...')
+fs.readFile('./archivo1.txt', 'utf-8')
   .then(text => {
-    console.log('primer texto:', text)
+    console.log('1st text:', text)
   })
 
-console.log('--> Hacer cosas mientras lee el archivo...')
+console.log('\n😀 Do things while reading the file...\n')
 
-console.log('Leyendo el segundo archivo...')
+console.log('🦄 Reading the second file...')
 fs.readFile('./archivo2.txt', 'utf-8')
   .then(text => {
-    console.log('segundo texto:', text)
+    console.log('2do text:', text)
   })

@@ -1,6 +1,2 @@
-vamoacodear
-maikychplcok
-pheralb
-meisstykun
-rumertovar
-obsynotfound
+MicroIntegrator Capabilities:
+   Full Protocol Support
