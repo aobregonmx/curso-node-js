@@ -10,7 +10,6 @@ const processRequest = (req, res) => {
     case 'GET':
       switch (url) {
         case '/pokemon/ditto':
-
           res.setHeader('Content-Type', 'application/json; charset=utf-8')
           return res.end(JSON.stringify(dittoJSON))
         default:
@@ -23,12 +22,10 @@ const processRequest = (req, res) => {
       switch (url) {
         case '/pokemon': {
           let body = ''
-
           // escuchar el evento data
           req.on('data', chunk => {
             body += chunk.toString()
           })
-
           req.on('end', () => {
             const data = JSON.parse(body)
             // llamar a una base de datos para guardar la info
