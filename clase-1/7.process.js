@@ -1,5 +1,6 @@
 // argumentos de entrada
-// console.log(process.argv)
+//console.log(process.version)
+//console.log(process.argv)
 
 // controlar el proceso y su salida
 // process.exit(1)
@@ -13,4 +14,4 @@
 console.log(process.cwd())
 
 // platform
-console.log(process.env.PEPITO)
+//console.log(process.env.PEPITO)
